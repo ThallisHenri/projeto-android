@@ -67,6 +67,10 @@ main > article > h2 {
     color: #3F7A5B;
     background-color: #D7F1E2 ;
 }
+main > img{
+    width: 100%;
+    margin: auto;
+}
 strong{
     color: #1A5D38;
 }
