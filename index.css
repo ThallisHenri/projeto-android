@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "android";
+    src: url(fonts/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+/*Customização do Header*/
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to top, #0f331f, #1A5D38, #39CE7C);
+    color: white;
+    margin-top: -21px;
+    text-align: center;
+    min-height: 150px;
+}
+header > h1 {
+    padding-top: 60px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.539);
+}
+
+/*Customização do Nav*/
+nav{
+    background-color: #0f331f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    transition-duration: .5s;
+}
+nav > a{
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+}
+nav > a:hover{
+    color: #39CE7C;
+}
+
+
+/*Customização do Main*/
+main{
+    background-color: white;
+    width: 50opx;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 350px;
+    box-shadow: 2px 2px 2px #0000004f;
+
+}
+main > article > h1 {
+    font-family: android,cursive,sans-serif;
+    color: #3F7A5B;
+    background-color: #D7F1E2 ;
+}
+main > article > h2 {
+    font-family: android, cursive, sans-serif;
+    color: #3F7A5B;
+    background-color: #D7F1E2 ;
+}
+strong{
+    color: #1A5D38;
+}
+
+
+
+/*Customização de Links*/
+a{
+    text-decoration: none;
+    color: #1A5D38;
+    font-weight: bold;
+}
+
+main > article > p > a::after{
+    content: ' 🔗'
+}
+footer > a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Customização da Section*/
+section{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.311);
+}
+section > ul{
+    columns: 2;
+}
+section > h3{
+    background-color: #1A5D38;
+    color: white;
+    padding: 10px;
+    margin:-10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*Customização do Footer*/
+footer{
+   background-color: #0f331f;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+
+
+/*Customização de Mídias*/
+img{
+    display: block;
+    margin: auto;
+    max-width: 750px;
+}
+figure{
+    margin: auto;
+}
+.ytvideo{
+    background-color: #0f331f;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 54% ;
+}
+.ytvideo > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
