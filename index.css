@@ -1,6 +1,6 @@
 @font-face {
     font-family: "android";
-    src: url(fonts/idroid.otf) format(opentype);
+    src: url(index/idroid.otf) format(opentype);
     font-weight: normal;
     font-style: normal;
 }
@@ -67,6 +67,10 @@ main > article > h2 {
     color: #3F7A5B;
     background-color: #D7F1E2 ;
 }
+main > img{
+    width: 100%;
+    margin: auto;
+}
 strong{
     color: #1A5D38;
 }
@@ -122,6 +126,7 @@ img{
     display: block;
     margin: auto;
     max-width: 750px;
+    min-width: 350px;
 }
 figure{
     margin: auto;
